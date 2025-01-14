@@ -163,4 +163,59 @@ main {
     color: #4B9CD3;
 }
 
+.dark-mode {
+    background-color: #13294B; 
+    color: #F7F9FA;           
+}
 
+.dark-mode header {
+    background-color: #001E3C; 
+    color: #FFFFFF;
+}
+
+.dark-mode header img {
+    filter: brightness(0.8);
+}
+
+.dark-mode #about-me {
+    background-color: #1D3C5B; 
+    color: #F7F9FA;
+}
+
+.dark-mode #classes {
+    background-color: #1D3C5B; 
+    border-color: #FFFFFF; 
+}
+
+.dark-mode .language, 
+.dark-mode .tool {
+    background-color: #1D3C5B; 
+    border: 1px solid #FFFFFF; 
+}
+
+.dark-mode #certifications ul li a,
+.dark-mode #projects a {
+    color: #F7F9FA; 
+}
+
+.dark-mode #certifications ul li a:hover,
+.dark-mode #projects a:hover {
+    color: #92C8EB; 
+}
+
+#dark-mode-toggle {
+    position: fixed;
+    top: 20px;     
+    right: 20px;   
+    z-index: 999;  
+    background-color: #13294B; 
+    color: #FFFFFF;         
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#dark-mode-toggle:hover {
+    background-color: #4B9CD3;
+}
