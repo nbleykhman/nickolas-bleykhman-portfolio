@@ -190,6 +190,7 @@ main {
 .dark-mode .tool {
     background-color: white; 
     border: 1px solid #4B9CD3; 
+    color: #13294B;
 }
 
 .dark-mode #certifications ul li a,
