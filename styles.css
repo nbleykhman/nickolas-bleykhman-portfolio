@@ -179,15 +179,17 @@ main {
 
 .dark-mode #about-me,
 .dark-mode #classes,
-.dark-mode #skills {
+.dark-mode #skills,
+.dark-mode #certifications,
+.dark-mode #projects {
     background-color: #1D3C5B; 
     color: white;
 }
 
 .dark-mode .language, 
 .dark-mode .tool {
-    background-color: #1D3C5B; 
-    border: 1px solid white; 
+    background-color: white; 
+    border: 1px solid #4B9CD3; 
 }
 
 .dark-mode #certifications ul li a,
