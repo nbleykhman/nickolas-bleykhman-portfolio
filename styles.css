@@ -165,37 +165,34 @@ main {
 
 .dark-mode {
     background-color: #13294B; 
-    color: #F7F9FA;           
+    color: white;           
 }
 
 .dark-mode header {
     background-color: #001E3C; 
-    color: #FFFFFF;
+    color: white;
 }
 
 .dark-mode header img {
     filter: brightness(0.8);
 }
 
-.dark-mode #about-me {
+.dark-mode #about-me,
+.dark-mode #classes,
+.dark-mode #skills {
     background-color: #1D3C5B; 
-    color: #F7F9FA;
-}
-
-.dark-mode #classes {
-    background-color: #1D3C5B; 
-    border-color: #FFFFFF; 
+    color: white;
 }
 
 .dark-mode .language, 
 .dark-mode .tool {
     background-color: #1D3C5B; 
-    border: 1px solid #FFFFFF; 
+    border: 1px solid white; 
 }
 
 .dark-mode #certifications ul li a,
 .dark-mode #projects a {
-    color: #F7F9FA; 
+    color: white; 
 }
 
 .dark-mode #certifications ul li a:hover,
@@ -209,7 +206,7 @@ main {
     right: 20px;   
     z-index: 999;  
     background-color: #13294B; 
-    color: #FFFFFF;         
+    color: white;         
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -218,4 +215,8 @@ main {
 
 #dark-mode-toggle:hover {
     background-color: #4B9CD3;
+}
+
+iframe {
+    border-style: none;
 }
