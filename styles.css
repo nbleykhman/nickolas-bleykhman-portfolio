@@ -188,9 +188,8 @@ main {
 
 .dark-mode .language, 
 .dark-mode .tool {
-    background-color: white; 
+    background-color: #13294B; 
     border: 1px solid #4B9CD3; 
-    color: #13294B;
 }
 
 .dark-mode #certifications ul li a,
