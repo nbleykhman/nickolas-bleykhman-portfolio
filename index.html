@@ -12,7 +12,7 @@
         <p class="description">
             Undergraduate Student at UNC Chapel Hill | 2026 Graduation | Python | Java | C | HTML | CSS | SQL | Data Analytics
         </p>
-        <button id="dark-mode-toggle">Toggle Dark  Mode</button>
+        <button id="dark-mode-toggle">Dark  Mode</button>
     </header>
     <main>
         <div id="about-me">
@@ -189,6 +189,12 @@
       
         toggleDarkModeButton.addEventListener("click", () => {
           document.body.classList.toggle("dark-mode");
+          
+          if (document.body.classList.contains("dark-mode")) {
+            toggleDarkModeButton.textContent = "Light Mode";
+          } else {
+            toggleDarkModeButton.textContent = "Dark Mode";
+          }
         });
     </script>      
   </body>
