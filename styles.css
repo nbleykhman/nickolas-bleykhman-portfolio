@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #13294B;
+}
+
+header {
+    background-color: #4B9CD3;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 10px;
+}
+
+h2 {
+    color: #4B9CD3;
+}
+
+.description {
+    font-size: 20px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 30px;
+}
+
+#about-me {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #4B9CD3;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#about-me p {
+    line-height: 1.6;
+}
+
+#classes {
+    background-color: white;
+    padding: 18px;
+    border: 2px solid #4B9CD3;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#classes ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+}
+
+#classes ul li {
+    font-size: 15px;
+    margin: 5px;
+}
+
+#skills {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #4B9CD3;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#programming-languages,
+#tools {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.language img, .tool img{
+    padding: 5px;
+}
+
+.language, .tool {
+    background-color: #F7F9FA;
+    border: 1px solid #D1D3D4;
+    border-radius: 10px;
+    text-align: center;
+    width: 120px;
+}
+
+.language img, .tool img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+#certifications {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #4B9CD3;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#certifications h2, #skills h2, #classes h2, #projects h2, #about-me h2 {
+    margin-top: 0;
+    margin-bottom: 15px; 
+}
+
+
+#certifications ul {
+    list-style-type: none;      
+    margin: 0;                  
+    padding: 0;         
+}
+
+#certifications ul li {
+    margin: 10px;
+    font-size: 15px;
+}
+
+#certifications ul li a {
+    color: #13294B;
+}
+#certifications ul li a:hover {
+    color: #4B9CD3;
+}
+
+#projects {
+    background-color: white;
+    padding: 20px;
+    border: 2px solid #4B9CD3;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#projects ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#projects ul li {
+    margin: 10px;
+    font-size: 15px;
+}
+
+#projects a {
+    color: #13294B;
+}
+
+#projects a:hover {
+    color: #4B9CD3;
+}
+
+
