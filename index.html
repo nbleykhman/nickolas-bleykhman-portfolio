@@ -196,6 +196,21 @@
             toggleDarkModeButton.textContent = "Dark Mode";
           }
         });
-    </script>      
+    </script>    
+    <script>
+        const body = document.body;
+        toggleDarkModeButton = document.getElementById("dark-mode-toggle");
+      
+        const savedDarkMode = localStorage.getItem("darkModeEnabled");
+        if (savedDarkMode === "true") {
+          body.classList.add("dark-mode");
+        }
+      
+        toggleDarkModeButton.addEventListener("click", () => {
+          body.classList.toggle("dark-mode");
+          localStorage.setItem("darkModeEnabled", body.classList.contains("dark-mode"));
+        });
+      </script>
+        
   </body>
 </html>
